@@ -1,0 +1,108 @@
+
+form#join {
+	margin:10px 0 0 0;
+	width: 670px;
+	}
+/*�ۿ��� 10px 0 0 0 �ʺ�670px*/
+
+form#join fieldset{
+	padding: 10px 0 20px 5px;
+	border: none;
+}
+/*�ȿ��� 10px 0 20px 5px �׵θ�����*/
+
+form#join fieldset legend{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	border-bottom: 1px dotted #666;
+	width: 600px;
+	padding: 5px 0;
+}
+/*����ü seo ����ũ��20px
+�׵θ��Ʒ� 1px dotted #666 �ʺ�600px �ȿ��� 5px 0*/
+
+form#join label{
+	width: 140px;
+	float: left;
+	font-family: Arial,Helvetica,sans-serif;
+}
+/*�ʺ� 140px ���� ���� �ۿ��� 5px 0*/
+
+form#join input{
+	margin: 5px 0;
+	border: 1px solid #999;
+	background-color:#ffffff;
+}
+/*�ۿ��� 5px 0 �׵θ� 1px solid #999
+���� #FCFDEA*/
+
+form#join input.id{
+	width: 100px;
+	height: 18px;
+}
+/*�ʺ� 100px ���� 18px*/
+
+form#join input.dup{
+	width: 120px;
+	height: 23px;
+	border-radius:8px;
+	border: none;
+	margin: 0 0 0 5px;
+	font-weight: bold;
+	color: #FFF;
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+/*�ʺ� 120px ����23px 
+�׵θ��ձ۰� 8px �׵θ�none �ۿ��� 0 0 0 5px
+���ڱ���bold ���ڻ� #FFF 
+����̹��� images/member/dup.jpg
+repeat-x center center */
+
+form#join #buttons .submit,form#join #buttons .cancel{
+	height: 30px;
+	width: 150px;
+	border: 1px solid #666;
+	border-radius:10px;
+	box-shadow:3px 3px 2px #CCC;
+	font-size: 14px;
+}
+/*���� 30px �ʺ�150px �׵θ� 1px solid #666
+�׵θ��ձ۰� 10px �ڽ��׸��� 3px 3px 2px #CCC
+����ũ�� 14px*/
+
+form#join #buttons .submit{
+	background-color: #FF7493;
+	background-repeat: repeat-x;
+	background-position: center center;
+	color: #ffffff;
+}/*
+����̹��� images/member/submit_back.jpg
+repeat-x center center ���ڻ� #fff*/
+
+form#join #buttons .cancel{
+	background-color: #FF7493;
+	margin: 0 0 0 20px;
+	background-repeat: repeat-x;
+	background-position: center center;
+	color: #ffffff;
+}
+/*�ۿ��� 0 0 0 20px
+����̹��� images/member/cancel_back.jpg
+repeat-x center center*/
+
+form#join .btn {
+	height: 25px;
+	width: 100px;
+	border: 1px solid #666;
+	border-radius:10px;
+	box-shadow:3px 3px 2px #CCC;
+	font-size: 14px;
+	background-color: #FF7493;
+	margin: 0 0 0 20px;
+	background-repeat: repeat-x;
+	background-position: center center;
+	color: #ffffff;
+}
+
+
